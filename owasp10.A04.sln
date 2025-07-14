@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp10.A04.fuzzer", "owasp10.A04.fuzzer\owasp10.A04.fuzzer.csproj", "{37615BFF-06C6-4EAE-AB4F-E968C7A0E691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp10.A04.library.wrapper", "owasp10.A04.library.wrapper\owasp10.A04.library.wrapper.csproj", "{E78C1174-F94D-4A93-8344-75DA0C8D5FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp10.A04.api", "owasp10.A04.api\owasp10.A04.api.csproj", "{429880EB-45F2-4EAD-AD58-28E15D13A02E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp10.A04.business", "owasp10.A04.interactors\owasp10.A04.business.csproj", "{54E37722-CF44-4EE6-BE96-216C0E60E292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp10.A04.data.access", "owasp10.A04.data.access\owasp10.A04.data.access.csproj", "{269A0A3D-8F4E-4A8C-9DB9-09FA72B1A1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owasp10.A04.host", "owasp10.A04.host\owasp10.A04.host.csproj", "{2470E6A3-F99C-470B-86B9-48C54AB455B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37615BFF-06C6-4EAE-AB4F-E968C7A0E691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37615BFF-06C6-4EAE-AB4F-E968C7A0E691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37615BFF-06C6-4EAE-AB4F-E968C7A0E691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37615BFF-06C6-4EAE-AB4F-E968C7A0E691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78C1174-F94D-4A93-8344-75DA0C8D5FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78C1174-F94D-4A93-8344-75DA0C8D5FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78C1174-F94D-4A93-8344-75DA0C8D5FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78C1174-F94D-4A93-8344-75DA0C8D5FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429880EB-45F2-4EAD-AD58-28E15D13A02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429880EB-45F2-4EAD-AD58-28E15D13A02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429880EB-45F2-4EAD-AD58-28E15D13A02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429880EB-45F2-4EAD-AD58-28E15D13A02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E37722-CF44-4EE6-BE96-216C0E60E292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E37722-CF44-4EE6-BE96-216C0E60E292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E37722-CF44-4EE6-BE96-216C0E60E292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E37722-CF44-4EE6-BE96-216C0E60E292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269A0A3D-8F4E-4A8C-9DB9-09FA72B1A1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269A0A3D-8F4E-4A8C-9DB9-09FA72B1A1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269A0A3D-8F4E-4A8C-9DB9-09FA72B1A1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269A0A3D-8F4E-4A8C-9DB9-09FA72B1A1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2470E6A3-F99C-470B-86B9-48C54AB455B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2470E6A3-F99C-470B-86B9-48C54AB455B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2470E6A3-F99C-470B-86B9-48C54AB455B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2470E6A3-F99C-470B-86B9-48C54AB455B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {007E79F6-8616-4AB1-8E3B-76BE31BE410F}
+	EndGlobalSection
+EndGlobal

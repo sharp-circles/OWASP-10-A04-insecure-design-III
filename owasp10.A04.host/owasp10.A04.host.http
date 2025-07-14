@@ -1,0 +1,6 @@
+@owasp.A04.host_HostAddress = http://localhost:5003
+
+GET {{owasp.A04.host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
