@@ -21,7 +21,7 @@ Based on the practical experience documented, here are the key takeaways regardi
 
 #### **Console Program (owasp10.A04.fuzzer/Program.cs)**
 
-This example demonstrates a typical structure for a SharpFuzz console application. The Fuzz.Run method takes a Stream as input, which is automatically provided by the fuzzer with generated test cases. The application then processes this stream, often attempting operations that might expose vulnerabilities (e.g., deserialization, file path manipulation, or API calls).
+This example demonstrates a typical structure for a SharpFuzz console application. The LibFuzzer.Run method takes a byte array as input, which is automatically provided by the fuzzer with generated test cases. The application then processes these bytes, often attempting operations that might expose vulnerabilities (e.g., deserialization, file path manipulation, or API calls).
 
 ```
 using owasp10.A04.library.wrapper;
@@ -73,3 +73,7 @@ These commands demonstrate how to execute the SharpFuzz console program using th
 ### **Disclaimer**
 
 The fuzz-libfuzzer.ps1 PowerShell script used for executing the fuzzer is part of the original [SharpFuzz](https://github.com/Metalnem/sharpfuzz) library and is included here for convenience. Please refer to the official SharpFuzz repository for the most up-to-date version and detailed usage instructions.
+
+### **Source article**
+
+
