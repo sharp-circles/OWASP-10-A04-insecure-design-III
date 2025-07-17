@@ -76,4 +76,4 @@ The fuzz-libfuzzer.ps1 PowerShell script used for executing the fuzzer is part o
 
 ### **Source article**
 
-
+https://sharpcircles.org/post/wtm12-owasp-10-a04-insecure-design-lab-iii-fuzzers-american-fuzzy-lop-afl
